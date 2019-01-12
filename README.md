@@ -1,1 +1,1 @@
-{\rtf1}
+Quick web site test for poking around with bootstrap
