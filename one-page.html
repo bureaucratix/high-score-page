@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Scoreboard</title>
+    <style>
+        body {
+          background-color: #58E2AE;
+        } 
+        .navBG {
+          background-color:lightblue;
+        }
+        #gameTitle {
+          font-family: Helvetica, sans-serif ;
+          font-weight: bolder;
+          font-size: 20pt;
+          color: white;
+        }
+        .fullTable{
+          position: relative;
+          top: 30px;
+          border-style: solid;
+          border-width: 7px;
+          border-color: darkblue;
+          border-radius: 25px
+        }
+        .scoreTable  {
+          border-style: solid;
+          border-width: 1px;
+          border-color: darkblue; 
+          text-align-last: center;
+        }
+        h1 {
+          font-weight: bold; 
+          font-size:16pt;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light navBG">
+            <a id="gameTitle" class="navbar title" href="#">Alex is very cool</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropDown" aria-controls="navbarDropDown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDropDown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Scoreboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Store</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+  <!-- I'm not sure what the issue is with the containers or the rows that causes
+     the whole table to sort of fall apart. I thought at first it was because it was
+     container-fluid, but I want the grid to stay intact if the resolution is too low-->
+<div class="container fullTable">
+  <div class="row">
+    <div class="col-sm scoreTable">
+      <h1>Rank</h1>      
+   </div>
+    <div class="col-sm scoreTable">
+      <h1>Name</h1> 
+    </div>
+    <div class="col-sm scoreTable">
+      <h1>Score</h1>  
+    </div>
+    <div class="col-sm scoreTable">
+      <h1>Date</h1> 
+    </div>
+  </div>
+<div class="row">
+  <div class="col-sm scoreTable">
+    1
+  </div>
+  <div class="col-sm scoreTable">
+    Val
+  </div>
+  <div class="col-sm scoreTable">        
+    153
+  </div>
+  <div class="col-sm scoreTable">        
+    12/15/18
+  </div>
+</div>
+<div class="row">
+   <div class="col-sm scoreTable">
+     2
+   </div>
+   <div class="col-sm scoreTable">
+     Justin
+   </div>
+   <div class="col-sm scoreTable">        
+     142
+   </div>
+   <div class="col-sm scoreTable">        
+     12/21/18
+   </div>
+ </div>
+ <div class="row">
+   <div class="col-sm scoreTable">
+     3
+   </div>
+     <div class="col-sm scoreTable">
+      Amb
+     </div>
+     <div class="col-sm scoreTable">        
+      119
+     </div>
+     <div class="col-sm scoreTable">        
+      1/8/18
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-sm scoreTable">
+       4
+     </div>
+     <div class="col-sm scoreTable">
+       Taro
+     </div>
+     <div class="col-sm scoreTable">        
+       102
+     </div>
+     <div class="col-sm scoreTable">        
+       11/15/18
+     </div>
+   </div>
+
+
+</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
